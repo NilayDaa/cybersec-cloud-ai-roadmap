@@ -32,8 +32,20 @@ def gh_call(*args):
         print("DRY: gh", " ".join(str(a) for a in args)); return "[]"
     r = run(GH, *args, cwd=REPO)
     if r.returncode != 0:
-        print(f"gh error: {r.stderr.strip() or r.stdout.strip()}", file=sys.stderr)
+        raise RuntimeError(f"gh {' '.join(str(a) for a in args)} failed: {(r.stderr or r.stdout).strip()}")
     return r.stdout.strip()
+
+def ensure_labels(day):
+    """Create study labels if missing (GitHub refuses to add unknown labels)."""
+    labels = {"daily-study": "1d76db"}
+    labels[f"day-{day}"] = "5319e7"
+    for label, color in labels.items():
+        try:
+            gh_call("label", "view", label, "--json", "name")
+        except RuntimeError:
+            gh_call("label", "create", label, "--color", color,
+                    "--description", f"Study tracker label: {label}")
+            print(f"Created label {label}")
 
 def main():
     sched = json.load(open(SCHED))
@@ -66,6 +78,9 @@ def main():
             json.dump(state, open(STATE_FILE, "w"), indent=2)
         return
 
+    labels = ["daily-study", f"day-{day}"]
+    ensure_labels(day)
+
     # ---- build issue body ----
     b = entry["body"]
     lines = [f"## {entry['week']}", f"**Topic:** {b['topic']}", ""]
@@ -84,7 +99,6 @@ def main():
     body = "\n".join(lines)
 
     title = entry["title"]
-    labels = ["daily-study", f"day-{day}"]
 
     # ---- ensure today's issue exists ----
     existing = gh_call("issue", "list", "--state", "all",
