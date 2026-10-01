@@ -1,0 +1,26 @@
+name: daily-study-issue
+on:
+  schedule:
+    # 07:00 UTC = 09:00/10:00 Finland (CET/CEST). Runs daily.
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}   # let the user trigger a catch-up manually
+permissions:
+  contents: write
+  issues: write
+jobs:
+  open-day:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Open today's study issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/daily_issue.py
+          git pull --rebase --autostash || true
+          git push || true

@@ -1,0 +1,1193 @@
+{
+  "total_days": 72,
+  "days": [
+    {
+      "day": 1,
+      "week": "W1 Cyber Fundamentals",
+      "title": "[Day 1] W1 Cyber Fundamentals \u2014 Linux + Windows fundamentals",
+      "body": {
+        "week": "W1 Cyber Fundamentals",
+        "topic": "Linux + Windows fundamentals",
+        "tasks": [
+          "THM Cyber Security 101: Linux modules",
+          "Recap: file system, permissions, users, processes",
+          "Recreate: basic bash (find, grep, awk, curl, tar, ssh)",
+          "Windows: filesystem, registry, users, cmd & PowerShell basics"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/cybersecurity101",
+          "https://tryhackme.com/path/outline/presecurity"
+        ]
+      }
+    },
+    {
+      "day": 2,
+      "week": "W1 Cyber Fundamentals",
+      "title": "[Day 2] W1 Cyber Fundamentals \u2014 Networking + TCP/IP recap",
+      "body": {
+        "week": "W1 Cyber Fundamentals",
+        "topic": "Networking + TCP/IP recap",
+        "tasks": [
+          "THM networking: OSI, TCP/IP, ports, subnets",
+          "Recap: TCP handshake, UDP, DNS, DHCP, HTTP(S)",
+          "20 subnetting exercises"
+        ],
+        "resources": [
+          "https://www.netacad.com/",
+          "https://subnettingpractice.com/"
+        ]
+      }
+    },
+    {
+      "day": 3,
+      "week": "W1 Cyber Fundamentals",
+      "title": "[Day 3] W1 Cyber Fundamentals \u2014 Active Directory fundamentals",
+      "body": {
+        "week": "W1 Cyber Fundamentals",
+        "topic": "Active Directory fundamentals",
+        "tasks": [
+          "AD concepts: domains, forests, group policy, Kerberos",
+          "THM Active Directory module",
+          "Practical: enumerate a small AD lab"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/cybersecurity101"
+        ]
+      }
+    },
+    {
+      "day": 4,
+      "week": "W1 Cyber Fundamentals",
+      "title": "[Day 4] W1 Cyber Fundamentals \u2014 Cryptography + web security",
+      "body": {
+        "week": "W1 Cyber Fundamentals",
+        "topic": "Cryptography + web security",
+        "tasks": [
+          "Crypto: hashing, symmetric/asymmetric, TLS",
+          "OWASP Top 10 overview",
+          "SQL security: injection basics",
+          "Web security: auth, sessions, CSRF, XSS"
+        ],
+        "resources": [
+          "https://owasp.org/www-project-top-ten/",
+          "https://portswigger.net/web-security"
+        ]
+      }
+    },
+    {
+      "day": 5,
+      "week": "W1 Cyber Fundamentals",
+      "title": "[Day 5] W1 Cyber Fundamentals \u2014 Tooling drill: recon + scanning",
+      "body": {
+        "week": "W1 Cyber Fundamentals",
+        "topic": "Tooling drill: recon + scanning",
+        "tasks": [
+          "Nmap: host/port/service/version/script scanning",
+          "Wireshark + tcpdump: capture & analyze",
+          "Netcat: connect, listen, file transfer",
+          "Gobuster: dir/wordlist enumeration"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/cybersecurity101"
+        ]
+      }
+    },
+    {
+      "day": 6,
+      "week": "W1 Cyber Fundamentals",
+      "title": "[Day 6] W1 Cyber Fundamentals \u2014 Web attack tools",
+      "body": {
+        "week": "W1 Cyber Fundamentals",
+        "topic": "Web attack tools",
+        "tasks": [
+          "Burp Suite: proxy, repeater, intruder",
+          "Hydra: brute force practice",
+          "Metasploit: basics, msfconsole, aux modules",
+          "Vuln scanning + IDS/firewall concepts"
+        ],
+        "resources": [
+          "https://portswigger.net/web-security",
+          "https://tryhackme.com/"
+        ]
+      }
+    },
+    {
+      "day": 7,
+      "week": "W2 SOC",
+      "title": "[Day 7] W2 SOC \u2014 SOC fundamentals",
+      "body": {
+        "week": "W2 SOC",
+        "topic": "SOC fundamentals",
+        "tasks": [
+          "THM SOC Level 1: security operations intro",
+          "SOC roles, process, alert triage"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/soclevel1"
+        ]
+      }
+    },
+    {
+      "day": 8,
+      "week": "W2 SOC",
+      "title": "[Day 8] W2 SOC \u2014 Log analysis + SIEM",
+      "body": {
+        "week": "W2 SOC",
+        "topic": "Log analysis + SIEM",
+        "tasks": [
+          "Log formats: syslog, Windows event logs, web logs",
+          "Set up Wazuh lab",
+          "SIEM querying & alert investigations"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/soclevel1"
+        ]
+      }
+    },
+    {
+      "day": 9,
+      "week": "W2 SOC",
+      "title": "[Day 9] W2 SOC \u2014 Threat detection + incident response",
+      "body": {
+        "week": "W2 SOC",
+        "topic": "Threat detection + incident response",
+        "tasks": [
+          "Detection engineering basics",
+          "Incident response lifecycle",
+          "Digital forensics essentials"
+        ],
+        "resources": [
+          "https://attack.mitre.org/",
+          "https://tryhackme.com/path/outline/soclevel1"
+        ]
+      }
+    },
+    {
+      "day": 10,
+      "week": "W2 SOC",
+      "title": "[Day 10] W2 SOC \u2014 SOC investigation practice 1",
+      "body": {
+        "week": "W2 SOC",
+        "topic": "SOC investigation practice 1",
+        "tasks": [
+          "Investigate 2 alerts end-to-end on Wazuh",
+          "Write investigation #1 (triage->detection->containment)"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/soclevel1"
+        ]
+      }
+    },
+    {
+      "day": 11,
+      "week": "W2 SOC",
+      "title": "[Day 11] W2 SOC \u2014 SOC investigation practice 2",
+      "body": {
+        "week": "W2 SOC",
+        "topic": "SOC investigation practice 2",
+        "tasks": [
+          "Investigate 2 more alerts",
+          "Write investigations #2 & #3"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/soclevel1"
+        ]
+      }
+    },
+    {
+      "day": 12,
+      "week": "W2 SOC",
+      "title": "[Day 12] W2 SOC \u2014 SOC wrap-up",
+      "body": {
+        "week": "W2 SOC",
+        "topic": "SOC wrap-up",
+        "tasks": [
+          "Complete remaining SOC Level 1 modules",
+          "Write investigations #4 & #5",
+          "Document all 5 investigations in docs/"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/soclevel1"
+        ]
+      }
+    },
+    {
+      "day": 13,
+      "week": "W3 Pentest",
+      "title": "[Day 13] W3 Pentest \u2014 Recon + enumeration",
+      "body": {
+        "week": "W3 Pentest",
+        "topic": "Recon + enumeration",
+        "tasks": [
+          "THM Jr Penetration Tester: recon",
+          "Active + passive recon, OSINT"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/jrpenetrationtester"
+        ]
+      }
+    },
+    {
+      "day": 14,
+      "week": "W3 Pentest",
+      "title": "[Day 14] W3 Pentest \u2014 Web exploitation",
+      "body": {
+        "week": "W3 Pentest",
+        "topic": "Web exploitation",
+        "tasks": [
+          "THM web exploitation modules",
+          "PortSwigger labs: SQLi, XSS, SSRF, file upload"
+        ],
+        "resources": [
+          "https://portswigger.net/web-security",
+          "https://tryhackme.com/path/outline/jrpenetrationtester"
+        ]
+      }
+    },
+    {
+      "day": 15,
+      "week": "W3 Pentest",
+      "title": "[Day 15] W3 Pentest \u2014 Privilege escalation",
+      "body": {
+        "week": "W3 Pentest",
+        "topic": "Privilege escalation",
+        "tasks": [
+          "Linux privesc: SUID, sudo, cron, kernel",
+          "Windows privesc basics"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/jrpenetrationtester"
+        ]
+      }
+    },
+    {
+      "day": 16,
+      "week": "W3 Pentest",
+      "title": "[Day 16] W3 Pentest \u2014 Post-exploitation + pivoting",
+      "body": {
+        "week": "W3 Pentest",
+        "topic": "Post-exploitation + pivoting",
+        "tasks": [
+          "Meterpreter sessions, lateral movement",
+          "Basic pivoting"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/jrpenetrationtester"
+        ]
+      }
+    },
+    {
+      "day": 17,
+      "week": "W3 Pentest",
+      "title": "[Day 17] W3 Pentest \u2014 CTF day 1-2",
+      "body": {
+        "week": "W3 Pentest",
+        "topic": "CTF day 1-2",
+        "tasks": [
+          "Solve 3 legal CTF/lab machines",
+          "Log methodology + commands"
+        ],
+        "resources": [
+          "https://tryhackme.com/",
+          "https://academy.hackthebox.com/"
+        ]
+      }
+    },
+    {
+      "day": 18,
+      "week": "W3 Pentest",
+      "title": "[Day 18] W3 Pentest \u2014 CTF day 3 + reporting",
+      "body": {
+        "week": "W3 Pentest",
+        "topic": "CTF day 3 + reporting",
+        "tasks": [
+          "Solve 2 more machines",
+          "Write a full penetration-test report"
+        ],
+        "resources": [
+          "https://academy.hackthebox.com/"
+        ]
+      }
+    },
+    {
+      "day": 19,
+      "week": "W4 Azure Fundamentals",
+      "title": "[Day 19] W4 Azure Fundamentals \u2014 Cloud concepts",
+      "body": {
+        "week": "W4 Azure Fundamentals",
+        "topic": "Cloud concepts",
+        "tasks": [
+          "MS path: Describe cloud concepts",
+          "IaaS/PaaS/SaaS, public/private/hybrid, regions, AZ"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/"
+        ]
+      }
+    },
+    {
+      "day": 20,
+      "week": "W4 Azure Fundamentals",
+      "title": "[Day 20] W4 Azure Fundamentals \u2014 Azure architecture & services 1",
+      "body": {
+        "week": "W4 Azure Fundamentals",
+        "topic": "Azure architecture & services 1",
+        "tasks": [
+          "MS path: arch + services (compute, storage)",
+          "Azure VMs, storage accounts"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/"
+        ]
+      }
+    },
+    {
+      "day": 21,
+      "week": "W4 Azure Fundamentals",
+      "title": "[Day 21] W4 Azure Fundamentals \u2014 Azure architecture & services 2",
+      "body": {
+        "week": "W4 Azure Fundamentals",
+        "topic": "Azure architecture & services 2",
+        "tasks": [
+          "Networking: VNet, LB, DNS",
+          "Containers: ACI, AKS",
+          "Databases: SQL, Cosmos DB"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/"
+        ]
+      }
+    },
+    {
+      "day": 22,
+      "week": "W4 Azure Fundamentals",
+      "title": "[Day 22] W4 Azure Fundamentals \u2014 Management & governance",
+      "body": {
+        "week": "W4 Azure Fundamentals",
+        "topic": "Management & governance",
+        "tasks": [
+          "MS path: management & governance",
+          "RBAC, IAM, policies, resource groups, monitoring, cost"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/"
+        ]
+      }
+    },
+    {
+      "day": 23,
+      "week": "W4 Azure Fundamentals",
+      "title": "[Day 23] W4 Azure Fundamentals \u2014 AZ-900 decision + practice",
+      "body": {
+        "week": "W4 Azure Fundamentals",
+        "topic": "AZ-900 decision + practice",
+        "tasks": [
+          "Decide: take AZ-900?",
+          "If yes: MS Learn AZ-900 path + practice tests",
+          "Free Azure account setup"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+          "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900"
+        ]
+      }
+    },
+    {
+      "day": 24,
+      "week": "W4 Azure Fundamentals",
+      "title": "[Day 24] W4 Azure Fundamentals \u2014 Azure hands-on",
+      "body": {
+        "week": "W4 Azure Fundamentals",
+        "topic": "Azure hands-on",
+        "tasks": [
+          "Build free-tier resources in portal",
+          "Create a VM, storage, and a simple VNet"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/training/azure/"
+        ]
+      }
+    },
+    {
+      "day": 25,
+      "week": "W5 Docker + K8s",
+      "title": "[Day 25] W5 Docker + K8s \u2014 Docker fundamentals",
+      "body": {
+        "week": "W5 Docker + K8s",
+        "topic": "Docker fundamentals",
+        "tasks": [
+          "Docker Get Started: images, containers, Dockerfile, ports, volumes, networks",
+          "Healthcheck, non-root, multi-stage"
+        ],
+        "resources": [
+          "https://docs.docker.com/get-started/"
+        ]
+      }
+    },
+    {
+      "day": 26,
+      "week": "W5 Docker + K8s",
+      "title": "[Day 26] W5 Docker + K8s \u2014 Docker Compose",
+      "body": {
+        "week": "W5 Docker + K8s",
+        "topic": "Docker Compose",
+        "tasks": [
+          "Compose for multi-container apps",
+          "Registries + image tagging",
+          "Container security basics"
+        ],
+        "resources": [
+          "https://docs.docker.com/get-started/"
+        ]
+      }
+    },
+    {
+      "day": 27,
+      "week": "W5 Docker + K8s",
+      "title": "[Day 27] W5 Docker + K8s \u2014 Containerize the stack",
+      "body": {
+        "week": "W5 Docker + K8s",
+        "topic": "Containerize the stack",
+        "tasks": [
+          "Containerize FastAPI backend",
+          "Containerize React frontend",
+          "Add PostgreSQL + Redis containers",
+          "Full Docker Compose app running"
+        ],
+        "resources": [
+          "https://docs.docker.com/get-started/"
+        ]
+      }
+    },
+    {
+      "day": 28,
+      "week": "W5 Docker + K8s",
+      "title": "[Day 28] W5 Docker + K8s \u2014 K8s fundamentals",
+      "body": {
+        "week": "W5 Docker + K8s",
+        "topic": "K8s fundamentals",
+        "tasks": [
+          "K8s tutorial: architecture, clusters, nodes, Pods, Deployments, Services",
+          "kubectl basics"
+        ],
+        "resources": [
+          "https://kubernetes.io/docs/tutorials/"
+        ]
+      }
+    },
+    {
+      "day": 29,
+      "week": "W5 Docker + K8s",
+      "title": "[Day 29] W5 Docker + K8s \u2014 K8s config + storage",
+      "body": {
+        "week": "W5 Docker + K8s",
+        "topic": "K8s config + storage",
+        "tasks": [
+          "Ingress, Namespaces, ConfigMaps, Secrets",
+          "PV/PVC, StatefulSets"
+        ],
+        "resources": [
+          "https://kubernetes.io/docs/tutorials/"
+        ]
+      }
+    },
+    {
+      "day": 30,
+      "week": "W5 Docker + K8s",
+      "title": "[Day 30] W5 Docker + K8s \u2014 K8s security + deploy",
+      "body": {
+        "week": "W5 Docker + K8s",
+        "topic": "K8s security + deploy",
+        "tasks": [
+          "RBAC, NetworkPolicies, resource limits, HPA",
+          "Deploy FastAPI+Postgres+Redis to K8s with full config"
+        ],
+        "resources": [
+          "https://kubernetes.io/docs/tutorials/"
+        ]
+      }
+    },
+    {
+      "day": 31,
+      "week": "W6 ML + LLM",
+      "title": "[Day 31] W6 ML + LLM \u2014 ML fundamentals",
+      "body": {
+        "week": "W6 ML + LLM",
+        "topic": "ML fundamentals",
+        "tasks": [
+          "Google ML Crash Course (accelerated, deep-dive only where unsure)",
+          "regression, classification, features, labels, overfitting"
+        ],
+        "resources": [
+          "https://developers.google.com/machine-learning/crash-course"
+        ]
+      }
+    },
+    {
+      "day": 32,
+      "week": "W6 ML + LLM",
+      "title": "[Day 32] W6 ML + LLM \u2014 ML build day",
+      "body": {
+        "week": "W6 ML + LLM",
+        "topic": "ML build day",
+        "tasks": [
+          "Build compact regression + classification projects",
+          "Build a neural-network project"
+        ],
+        "resources": [
+          "https://developers.google.com/machine-learning/crash-course"
+        ]
+      }
+    },
+    {
+      "day": 33,
+      "week": "W6 ML + LLM",
+      "title": "[Day 33] W6 ML + LLM \u2014 LLM: transformers + tokenization",
+      "body": {
+        "week": "W6 ML + LLM",
+        "topic": "LLM: transformers + tokenization",
+        "tasks": [
+          "HF LLM Course: Transformers, tokenization, attention, embeddings"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/llm-course/"
+        ]
+      }
+    },
+    {
+      "day": 34,
+      "week": "W6 ML + LLM",
+      "title": "[Day 34] W6 ML + LLM \u2014 LLM: inference + fine-tuning",
+      "body": {
+        "week": "W6 ML + LLM",
+        "topic": "LLM: inference + fine-tuning",
+        "tasks": [
+          "HF: inference, fine-tuning, eval",
+          "Run a local open-source LLM"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/llm-course/"
+        ]
+      }
+    },
+    {
+      "day": 35,
+      "week": "W6 ML + LLM",
+      "title": "[Day 35] W6 ML + LLM \u2014 Embeddings + LLM API",
+      "body": {
+        "week": "W6 ML + LLM",
+        "topic": "Embeddings + LLM API",
+        "tasks": [
+          "Build an embedding-search project",
+          "Build an LLM API with FastAPI"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/llm-course/"
+        ]
+      }
+    },
+    {
+      "day": 36,
+      "week": "W6 ML + LLM",
+      "title": "[Day 36] W6 ML + LLM \u2014 Model eval + wrap",
+      "body": {
+        "week": "W6 ML + LLM",
+        "topic": "Model eval + wrap",
+        "tasks": [
+          "Model evaluation, validation, test sets",
+          "Push one ML/LLM project to GitHub"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/llm-course/"
+        ]
+      }
+    },
+    {
+      "day": 37,
+      "week": "W7 RAG",
+      "title": "[Day 37] W7 RAG \u2014 RAG architecture",
+      "body": {
+        "week": "W7 RAG",
+        "topic": "RAG architecture",
+        "tasks": [
+          "Document ingestion, PDF processing, chunking",
+          "Embeddings + vector DBs + similarity search + retrieval"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/llm-course/"
+        ]
+      }
+    },
+    {
+      "day": 38,
+      "week": "W7 RAG",
+      "title": "[Day 38] W7 RAG \u2014 Vector stores",
+      "body": {
+        "week": "W7 RAG",
+        "topic": "Vector stores",
+        "tasks": [
+          "FAISS + PostgreSQL pgvector",
+          "RAG evaluation"
+        ],
+        "resources": [
+          "https://github.com/pgvector/pgvector",
+          "https://github.com/facebookresearch/faiss"
+        ]
+      }
+    },
+    {
+      "day": 39,
+      "week": "W7 RAG",
+      "title": "[Day 39] W7 RAG \u2014 Build RAG scaffold",
+      "body": {
+        "week": "W7 RAG",
+        "topic": "Build RAG scaffold",
+        "tasks": [
+          "FastAPI app + document upload + ingestion pipeline"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/llm-course/"
+        ]
+      }
+    },
+    {
+      "day": 40,
+      "week": "W7 RAG",
+      "title": "[Day 40] W7 RAG \u2014 RAG hardening (security)",
+      "body": {
+        "week": "W7 RAG",
+        "topic": "RAG hardening (security)",
+        "tasks": [
+          "Auth, RBAC, rate limiting, logging",
+          "Prompt injection + context injection"
+        ],
+        "resources": [
+          "https://genai.owasp.org/initiative/owasp-top-10-for-llm-and-genai/"
+        ]
+      }
+    },
+    {
+      "day": 41,
+      "week": "W7 RAG",
+      "title": "[Day 41] W7 RAG \u2014 RAG testing",
+      "body": {
+        "week": "W7 RAG",
+        "topic": "RAG testing",
+        "tasks": [
+          "Test against wrong answers + prompt injection",
+          "Document evaluation results"
+        ],
+        "resources": [
+          "https://genai.owasp.org/"
+        ]
+      }
+    },
+    {
+      "day": 42,
+      "week": "W7 RAG",
+      "title": "[Day 42] W7 RAG \u2014 Deploy RAG",
+      "body": {
+        "week": "W7 RAG",
+        "topic": "Deploy RAG",
+        "tasks": [
+          "Deploy securely with Docker",
+          "Write security documentation + README"
+        ],
+        "resources": [
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 43,
+      "week": "W8 AI Agents",
+      "title": "[Day 43] W8 AI Agents \u2014 Agent fundamentals",
+      "body": {
+        "week": "W8 AI Agents",
+        "topic": "Agent fundamentals",
+        "tasks": [
+          "HF Agents Course: agent loops, tools, tool/function calling, reasoning, planning",
+          "smolagents, LangGraph, LlamaIndex"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/agents-course/"
+        ]
+      }
+    },
+    {
+      "day": 44,
+      "week": "W8 AI Agents",
+      "title": "[Day 44] W8 AI Agents \u2014 Agentic patterns",
+      "body": {
+        "week": "W8 AI Agents",
+        "topic": "Agentic patterns",
+        "tasks": [
+          "Agentic RAG, agent evaluation, GAIA"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/agents-course/"
+        ]
+      }
+    },
+    {
+      "day": 45,
+      "week": "W8 AI Agents",
+      "title": "[Day 45] W8 AI Agents \u2014 Build agents",
+      "body": {
+        "week": "W8 AI Agents",
+        "topic": "Build agents",
+        "tasks": [
+          "Simple tool-calling agent",
+          "Research agent",
+          "RAG agent",
+          "Multi-tool agent"
+        ],
+        "resources": [
+          "https://huggingface.co/learn/agents-course/"
+        ]
+      }
+    },
+    {
+      "day": 46,
+      "week": "W8 AI Agents",
+      "title": "[Day 46] W8 AI Agents \u2014 Upgrade AI Job Agent: tools",
+      "body": {
+        "week": "W8 AI Agents",
+        "topic": "Upgrade AI Job Agent: tools",
+        "tasks": [
+          "Add tool-calling to AI Job Agent",
+          "Wire LangGraph"
+        ],
+        "resources": [
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 47,
+      "week": "W8 AI Agents",
+      "title": "[Day 47] W8 AI Agents \u2014 Upgrade AI Job Agent: eval + docs",
+      "body": {
+        "week": "W8 AI Agents",
+        "topic": "Upgrade AI Job Agent: eval + docs",
+        "tasks": [
+          "Add agent evaluation",
+          "Document architecture",
+          "Push to GitHub"
+        ],
+        "resources": [
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 48,
+      "week": "W8 AI Agents",
+      "title": "[Day 48] W8 AI Agents \u2014 Agent security",
+      "body": {
+        "week": "W8 AI Agents",
+        "topic": "Agent security",
+        "tasks": [
+          "LLM-gen AI frameworks: excessive agency, tool abuse, agent hijacking",
+          "Review OWASP LLM Top 10 relevant to agents"
+        ],
+        "resources": [
+          "https://genai.owasp.org/initiative/owasp-top-10-for-llm-and-genai/"
+        ]
+      }
+    },
+    {
+      "day": 49,
+      "week": "W9 DevSecOps + Azure Security",
+      "title": "[Day 49] W9 DevSecOps + Azure Security \u2014 CI/CD + GitHub Actions",
+      "body": {
+        "week": "W9 DevSecOps + Azure Security",
+        "topic": "CI/CD + GitHub Actions",
+        "tasks": [
+          "GitHub Skills: Actions, CI/CD, automation",
+          "Git + GitHub workflow recap"
+        ],
+        "resources": [
+          "https://skills.github.com/"
+        ]
+      }
+    },
+    {
+      "day": 50,
+      "week": "W9 DevSecOps + Azure Security",
+      "title": "[Day 50] W9 DevSecOps + Azure Security \u2014 SAST + secret + dependency scanning",
+      "body": {
+        "week": "W9 DevSecOps + Azure Security",
+        "topic": "SAST + secret + dependency scanning",
+        "tasks": [
+          "Semgrep: add SAST to a project",
+          "Gitleaks: secret scanning",
+          "Dependency scanning on a project"
+        ],
+        "resources": [
+          "https://semgrep.dev/",
+          "https://github.com/gitleaks/gitleaks"
+        ]
+      }
+    },
+    {
+      "day": 51,
+      "week": "W9 DevSecOps + Azure Security",
+      "title": "[Day 51] W9 DevSecOps + Azure Security \u2014 Container + DAST scanning",
+      "body": {
+        "week": "W9 DevSecOps + Azure Security",
+        "topic": "Container + DAST scanning",
+        "tasks": [
+          "Trivy container scanning",
+          "OWASP ZAP DAST"
+        ],
+        "resources": [
+          "https://trivy.dev/",
+          "https://www.zaproxy.org/"
+        ]
+      }
+    },
+    {
+      "day": 52,
+      "week": "W9 DevSecOps + Azure Security",
+      "title": "[Day 52] W9 DevSecOps + Azure Security \u2014 Fail-closed CI",
+      "body": {
+        "week": "W9 DevSecOps + Azure Security",
+        "topic": "Fail-closed CI",
+        "tasks": [
+          "Make security failures stop CI/CD deployment",
+          "Wire all scanners into one pipeline"
+        ],
+        "resources": [
+          "https://skills.github.com/"
+        ]
+      }
+    },
+    {
+      "day": 53,
+      "week": "W9 DevSecOps + Azure Security",
+      "title": "[Day 53] W9 DevSecOps + Azure Security \u2014 Azure security core",
+      "body": {
+        "week": "W9 DevSecOps + Azure Security",
+        "topic": "Azure security core",
+        "tasks": [
+          "Entra ID, IAM, RBAC, NSG, Azure Firewall, Key Vault",
+          "Defender for Cloud, Monitor, logging"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/azuresecurity",
+          "https://learn.microsoft.com/en-us/security/zero-trust/"
+        ]
+      }
+    },
+    {
+      "day": 54,
+      "week": "W9 DevSecOps + Azure Security",
+      "title": "[Day 54] W9 DevSecOps + Azure Security \u2014 Zero Trust + securing my Azure stack",
+      "body": {
+        "week": "W9 DevSecOps + Azure Security",
+        "topic": "Zero Trust + securing my Azure stack",
+        "tasks": [
+          "Zero Trust architecture",
+          "Apply NSG + Key Vault + logging to my AZ resource group"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/security/zero-trust/"
+        ]
+      }
+    },
+    {
+      "day": 55,
+      "week": "W10 AI Security",
+      "title": "[Day 55] W10 AI Security \u2014 AI Security fundamentals",
+      "body": {
+        "week": "W10 AI Security",
+        "topic": "AI Security fundamentals",
+        "tasks": [
+          "Microsoft AI Security Fundamentals path"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/training/paths/ai-security-fundamentals/"
+        ]
+      }
+    },
+    {
+      "day": 56,
+      "week": "W10 AI Security",
+      "title": "[Day 56] W10 AI Security \u2014 OWASP LLM Top 10",
+      "body": {
+        "week": "W10 AI Security",
+        "topic": "OWASP LLM Top 10",
+        "tasks": [
+          "OWASP Top 10 for LLM apps: each entry + mitigation"
+        ],
+        "resources": [
+          "https://genai.owasp.org/initiative/owasp-top-10-for-llm-and-genai/"
+        ]
+      }
+    },
+    {
+      "day": 57,
+      "week": "W10 AI Security",
+      "title": "[Day 57] W10 AI Security \u2014 Attack classes",
+      "body": {
+        "week": "W10 AI Security",
+        "topic": "Attack classes",
+        "tasks": [
+          "Prompt injection, indirect injection, jailbreaking, prompt-defense",
+          "RAG poisoning, data poisoning, sensitive-info disclosure"
+        ],
+        "resources": [
+          "https://genai.owasp.org/initiative/owasp-top-10-for-llm-and-genai/"
+        ]
+      }
+    },
+    {
+      "day": 58,
+      "week": "W10 AI Security",
+      "title": "[Day 58] W10 AI Security \u2014 Agent attack classes",
+      "body": {
+        "week": "W10 AI Security",
+        "topic": "Agent attack classes",
+        "tasks": [
+          "Excessive agency, tool abuse, agent hijacking, AI supply chain",
+          "AI threat modelling + red teaming principles"
+        ],
+        "resources": [
+          "https://genai.owasp.org/initiative/owasp-top-10-for-llm-and-genai/"
+        ]
+      }
+    },
+    {
+      "day": 59,
+      "week": "W10 AI Security",
+      "title": "[Day 59] W10 AI Security \u2014 THM AI Security + Defending Azure",
+      "body": {
+        "week": "W10 AI Security",
+        "topic": "THM AI Security + Defending Azure",
+        "tasks": [
+          "THM AI Security path",
+          "THM Defending Azure: Sentinel, KQL, Defender XDR, detection, investigation"
+        ],
+        "resources": [
+          "https://tryhackme.com/path/outline/aisecurity",
+          "https://tryhackme.com/path/outline/azuresecurity",
+          "https://learn.microsoft.com/en-us/azure/sentinel/"
+        ]
+      }
+    },
+    {
+      "day": 60,
+      "week": "W10 AI Security",
+      "title": "[Day 60] W10 AI Security \u2014 Sentinel hands-on",
+      "body": {
+        "week": "W10 AI Security",
+        "topic": "Sentinel hands-on",
+        "tasks": [
+          "Spin up Sentinel log analytics workspace",
+          "Write KQL queries, create simple detection rule"
+        ],
+        "resources": [
+          "https://learn.microsoft.com/en-us/azure/sentinel/"
+        ]
+      }
+    },
+    {
+      "day": 61,
+      "week": "W11 Projects",
+      "title": "[Day 61] W11 Projects \u2014 AI SOC Analyst: ingestion + SIEM",
+      "body": {
+        "week": "W11 Projects",
+        "topic": "AI SOC Analyst: ingestion + SIEM",
+        "tasks": [
+          "Build security-log ingestion pipeline",
+          "Connect Wazuh/Sentinel data source",
+          "Alert-processing pipeline"
+        ],
+        "resources": [
+          "https://attack.mitre.org/",
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 62,
+      "week": "W11 Projects",
+      "title": "[Day 62] W11 Projects \u2014 AI SOC Analyst: agent + RAG",
+      "body": {
+        "week": "W11 Projects",
+        "topic": "AI SOC Analyst: agent + RAG",
+        "tasks": [
+          "Build AI SOC agent",
+          "Add security-knowledge RAG",
+          "MITRE ATT&CK mapping"
+        ],
+        "resources": [
+          "https://attack.mitre.org/",
+          "https://huggingface.co/learn/agents-course/"
+        ]
+      }
+    },
+    {
+      "day": 63,
+      "week": "W11 Projects",
+      "title": "[Day 63] W11 Projects \u2014 AI SOC Analyst: investigation + guardrails",
+      "body": {
+        "week": "W11 Projects",
+        "topic": "AI SOC Analyst: investigation + guardrails",
+        "tasks": [
+          "Investigation tools + threat analysis",
+          "Generate incident reports",
+          "Human-approval before actions + audit trail"
+        ],
+        "resources": [
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 64,
+      "week": "W11 Projects",
+      "title": "[Day 64] W11 Projects \u2014 AI SOC Analyst: eval + deploy",
+      "body": {
+        "week": "W11 Projects",
+        "topic": "AI SOC Analyst: eval + deploy",
+        "tasks": [
+          "Add evaluation dataset",
+          "Deploy the app",
+          "Write security report"
+        ],
+        "resources": [
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 65,
+      "week": "W11 Projects",
+      "title": "[Day 65] W11 Projects \u2014 AI Security Lab: build vulnerable app",
+      "body": {
+        "week": "W11 Projects",
+        "topic": "AI Security Lab: build vulnerable app",
+        "tasks": [
+          "Intentionally vulnerable GenAI app",
+          "Demonstrate prompt injection, indirect injection, jailbreaking"
+        ],
+        "resources": [
+          "https://genai.owasp.org/initiative/owasp-top-10-for-llm-and-genai/"
+        ]
+      }
+    },
+    {
+      "day": 66,
+      "week": "W11 Projects",
+      "title": "[Day 66] W11 Projects \u2014 AI Security Lab: attacks + defenses",
+      "body": {
+        "week": "W11 Projects",
+        "topic": "AI Security Lab: attacks + defenses",
+        "tasks": [
+          "Demonstrate RAG poisoning, data leakage, tool abuse, excessive agency",
+          "Implement defenses, retest",
+          "Write security report + publish sanitized"
+        ],
+        "resources": [
+          "https://genai.owasp.org/initiative/owasp-top-10-for-llm-and-genai/"
+        ]
+      }
+    },
+    {
+      "day": 67,
+      "week": "W12 Launch",
+      "title": "[Day 67] W12 Launch \u2014 HTB Academy reset",
+      "body": {
+        "week": "W12 Launch",
+        "topic": "HTB Academy reset",
+        "tasks": [
+          "Pick SOC + Web security track",
+          "Complete 1-2 advanced HTB machines",
+          "Document every major lab"
+        ],
+        "resources": [
+          "https://academy.hackthebox.com/"
+        ]
+      }
+    },
+    {
+      "day": 68,
+      "week": "W12 Launch",
+      "title": "[Day 68] W12 Launch \u2014 HTB hands-on",
+      "body": {
+        "week": "W12 Launch",
+        "topic": "HTB hands-on",
+        "tasks": [
+          "Complete more HTB machines",
+          "Red-team exercise write-up"
+        ],
+        "resources": [
+          "https://academy.hackthebox.com/"
+        ]
+      }
+    },
+    {
+      "day": 69,
+      "week": "W12 Launch",
+      "title": "[Day 69] W12 Launch \u2014 Portfolio polish",
+      "body": {
+        "week": "W12 Launch",
+        "topic": "Portfolio polish",
+        "tasks": [
+          "READMEs, architecture diagrams, security docs on ALL projects",
+          "Ensure 5 projects are on GitHub"
+        ],
+        "resources": [
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 70,
+      "week": "W12 Launch",
+      "title": "[Day 70] W12 Launch \u2014 CV + LinkedIn",
+      "body": {
+        "week": "W12 Launch",
+        "topic": "CV + LinkedIn",
+        "tasks": [
+          "Update CV to lead with AI Job Agent + AI SOC Analyst",
+          "Update LinkedIn headline + About (Finland internship framing)"
+        ],
+        "resources": [
+          "https://github.com/NilayDaa/ai-job-agent"
+        ]
+      }
+    },
+    {
+      "day": 71,
+      "week": "W12 Launch",
+      "title": "[Day 71] W12 Launch \u2014 Interview prep",
+      "body": {
+        "week": "W12 Launch",
+        "topic": "Interview prep",
+        "tasks": [
+          "Compile technical interview questions (security + AI + cloud)",
+          "Practice answering out loud"
+        ],
+        "resources": []
+      }
+    },
+    {
+      "day": 72,
+      "week": "W12 Launch",
+      "title": "[Day 72] W12 Launch \u2014 Launch",
+      "body": {
+        "week": "W12 Launch",
+        "topic": "Launch",
+        "tasks": [
+          "Start applying for internships + thesis positions",
+          "Review roadmap, choose specialization",
+          "Plan next cycle of deep work"
+        ],
+        "resources": []
+      }
+    }
+  ]
+}
