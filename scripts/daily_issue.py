@@ -40,12 +40,9 @@ def ensure_labels(day):
     labels = {"daily-study": "1d76db"}
     labels[f"day-{day}"] = "5319e7"
     for label, color in labels.items():
-        try:
-            gh_call("label", "view", label, "--json", "name")
-        except RuntimeError:
-            gh_call("label", "create", label, "--color", color,
-                    "--description", f"Study tracker label: {label}")
-            print(f"Created label {label}")
+        # --force makes creation idempotent (updates name/color if exists).
+        gh_call("label", "create", label, "--color", color,
+                "--description", f"Study tracker label: {label}", "--force")
 
 def main():
     sched = json.load(open(SCHED))
@@ -113,16 +110,9 @@ def main():
     else:
         print(f"Day {day} issue #{issue_number} already exists — leaving it.")
 
-    # ---- close stale open daily-study issues from earlier days ----
-    open_issues = gh_call("issue", "list", "--state", "open",
-                          "--label", "daily-study", "--json", "number,labels")
-    if open_issues and open_issues != "[]":
-        for i in json.loads(open_issues):
-            lbls = {l.get("name") for l in i.get("labels", [])}
-            this_day = f"day-{day}" in lbls
-            if not this_day:
-                gh_call("issue", "close", str(i["number"]),
-                        "--comment", f"Auto-closed: day {day} is the active study day.")
+    # NOTE: all 72 issues are pre-created (create_all_issues.py) and kept OPEN so
+    # you can tick them off as you study. We intentionally do NOT auto-close older
+    # issues — this repo is a live checklist, not a one-at-a-time queue.
 
     # ---- persist state ----
     if changed and not DRY:

@@ -2,19 +2,20 @@
 
 Compressed full-time study roadmap (Cybersecurity · SOC · Cloud/Azure · DevSecOps · AI/LLM · AI Security) for a JAMK cybersecurity student targeting Finland internships. **~6 study days/week, 8h/day.**
 
-This repo auto-creates one focused issue per day via GitHub Actions so you always know exactly what to study.
+This repo has **all 72 study issues pre-created and open** — one per day across the 12-week sprint. Tick them off as you study.
 
 ## How it works
 - `docs/ROADMAP.md` — the full 12-week plan with every resource linked inline
 - `docs/resources.md` — searchable catalog of ALL verified resource links by topic
-- `schedule.json` — generated daily task plan (machine-readable)
-- `.github/workflows/daily-issue.yml` — nightly job that opens the next day's issue with `daily-study` label, then closes the previous day's
+- `schedule.json` — the generated daily task plan (machine-readable)
+- All 72 issues live in the **Issues tab** under the `daily-study` label (kept open as a checklist)
+- `scripts/create_all_issues.py` — (re)creates any missing issues idempotently
+- `scripts/daily_issue.py` — optional daily engine (no-op now that all issues exist)
 
 ## Daily loop
-1. GitHub Actions opens **today's issue** at 07:00 UTC (10:00 Finland) with the exact tasks + resources
-2. Study, tick the checkboxes, add a 2-line logbook note as a comment
-3. Your daily commit/reply = proof of progress on GitHub
-4. Next run closes the finished issue and opens the new one
+1. Pick today's open issue (`#N` = day N)
+2. Work through the tasks, **tick the checkboxes**, add a 2-line logbook note as a comment
+3. Close it when done (or leave open until complete — your call)
 
 ## Fast start
 ```bash
